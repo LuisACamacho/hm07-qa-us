@@ -2,7 +2,7 @@
 const config = require('../config');
 
 // test to check the correct code status of getting a list of warehouses 
-getCodeStatus('status should be 200', async () => {
+test('status should be 200', async () => {
 	try {
 		const response = await fetch(`${config.API_URL}/api/v1/warehouses`); 
 	} catch (error) {
