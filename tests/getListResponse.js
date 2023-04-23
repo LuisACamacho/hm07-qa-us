@@ -10,6 +10,5 @@ async function getRequest() {
 	} catch (error) {
 		console.error(error);
 	}
-
 };
 getRequest(); 
