@@ -11,5 +11,6 @@ test('status should be 200', async () => {
 	} catch (error) {
 		console.error(error);
 	}  
+	 // Check code status
     expect(actualStatus).toBe(200);
 });

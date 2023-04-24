@@ -10,10 +10,10 @@ test('ok field should be true', async () => {
        
 	} catch (error) {
 		console.error(error);
-	}  
+	}   
     const data = await response.json();
     console.log(data);
-// the response data should be TRUE 
+// the response data should be TRUE if the kit exists in the system 
 expect(data.ok).toBe(true);
 
 });
