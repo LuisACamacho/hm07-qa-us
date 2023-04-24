@@ -24,7 +24,7 @@ const requestBody = {
     ]   
 }
 
-test('status should be 200', async () => {
+test('ok field should be true', async () => {
    let response;
     try {
 		 response = await fetch(`${config.API_URL}/api/v1/kits/3`, {
@@ -40,7 +40,8 @@ test('status should be 200', async () => {
 	}
     const data = await response.json();
     console.log(data);
-   // expect(data.isItPossibleToDeliver).toBe(true);
+    //the response data should be TRUE if the kit exists and parameters are valid in the request body
+   expect(data.ok).toBe(true);
     
 }); 
 
