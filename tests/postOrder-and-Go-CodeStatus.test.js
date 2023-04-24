@@ -10,11 +10,11 @@ const requestBody = {
 test('status should be 200', async () => {
     let actualStatus; 
     try {
-		const response = await fetch(`${config.API_URL}/speedy/v1/calculate`, {
+		const response = await fetch(`${config.API_URL}/order-and-go/v1/delivery`, {
 			method: 'POST',
 			headers: {
 			'Content-Type': 'application/json'
-			},
+			}, 
 			body: JSON.stringify(requestBody)
 		});
         actualStatus = response.status;
