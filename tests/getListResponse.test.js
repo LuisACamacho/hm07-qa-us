@@ -1,6 +1,6 @@
 // eslint-disable-next-line no-undef
 const config = require('../config');
-test('test for checking to see all the names of warehouse', async () => {
+test('The response should have all warehouses in the list', async () => {
 	let response;
 	try {
 		 response = await fetch(`${config.API_URL}/api/v1/warehouses`);
