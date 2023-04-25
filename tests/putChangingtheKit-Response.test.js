@@ -27,7 +27,7 @@ const requestBody = {
 test('ok field should be true', async () => {
    let response;
     try {
-		 response = await fetch(`${config.API_URL}/api/v1/kits/3`, {
+            response = await fetch(`${config.API_URL}/api/v1/kits/3`, {
 			method: 'PUT',
 			headers: {
 			'Content-Type': 'application/json'
