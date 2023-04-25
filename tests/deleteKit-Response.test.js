@@ -4,7 +4,7 @@ const config = require('../config');
 test('ok field should be true', async () => {
     let response;
     try {
-		 	response = await fetch(`${config.API_URL}/api/v1/kits/2`, {
+			response = await fetch(`${config.API_URL}/api/v1/kits/2`, {
 			method: 'DELETE',
 		});
        
