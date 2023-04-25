@@ -23,7 +23,7 @@ test('isItPossibleToDeliver field should be true', async () => {
 	}
     const data = await response.json();
         console.log(data);
-    // the response data should be TRUE 
+    // the response data should be TRUE if the parameter are valid input 
     expect(data.isItPossibleToDeliver).toBe(true);
    
 });
