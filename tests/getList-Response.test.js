@@ -3,7 +3,7 @@ const config = require('../config');
 test('The response should have all warehouses in the list', async () => {
 	let response;
 	try {
-		 response = await fetch(`${config.API_URL}/api/v1/warehouses`);
+			response = await fetch(`${config.API_URL}/api/v1/warehouses`);
 	} catch (error) {
 		console.error(error);
 	}
