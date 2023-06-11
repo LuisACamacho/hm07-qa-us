@@ -6,15 +6,17 @@
 
 # Instructions to run all tests 
 # ------------------------------
-# 1.  Open the terminal 
-# 2.  Go to the project path      Commnad: cd hm07-qa-us  
-# 3.  Run the jest command        Command: npx jest 
+# 1.  Generate "Urban Grocers" server and add URL to config.js
+# 2.  Open the terminal 
+# 3.  Go to the project path      Commnad: cd hm07-qa-us  
+# 4.  Run the jest command        Command: npx jest 
 
 # Instructions to run a test individual  
 # ------------------------------
-# 1.  Open the terminal 
-# 2.  Go to the project path      Commnad: cd hm07-qa-us  
-# 3.  Run the jest command        Command: npx jest tests/NameofFile     
+# 1.  Generate "Urban Grocers" server and add URL to config.js
+# 2.  Open the terminal 
+# 3.  Go to the project path      Commnad: cd hm07-qa-us  
+# 4.  Run the jest command        Command: npx jest tests/NameofFile     
 # Example of file: deleteKit-CodeStatus.test.js
 
 
